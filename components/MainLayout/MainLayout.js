@@ -9,7 +9,7 @@ export default ({ children }) =>
       />
       <link
         rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"
+        href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css"
       />
     </Head>
     {children}
