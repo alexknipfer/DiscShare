@@ -1,15 +1,8 @@
-import React, { Component } from 'react'
+import Login from '../Login/Login'
+import React from 'react'
 
-import { Button } from 'react-bootstrap'
-
-class Home extends Component {
-  componentDidMount() {
-    //fetch('/users').then(res => res.json()).then(result => console.log(result))
-  }
-
-  render() {
-    return <Button bsStyle="primary">Primary</Button>
-  }
+const Home = () => {
+  return <Login />
 }
 
 export default Home
